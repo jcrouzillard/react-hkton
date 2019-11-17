@@ -19,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <button onClick={ function() { alert('teste'); }}>Day One</button>
+      </body>
     </div>
   );
 }
